@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:33
+-keep class com.googlecode.pythonforandroid.CreateFilesFolderService { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.googlecode.pythonforandroid.FileBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.googlecode.pythonforandroid.Preferences { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.googlecode.pythonforandroid.PythonMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.googlecode.pythonforandroid.PythonProvider { <init>(...); }
+
