@@ -524,6 +524,15 @@ public class AndroidFacade extends RpcReceiver {
     });
   }
 
+  @Rpc(description = "Displays a short-duration Toast notification.")
+  public void makeToastTM(@RpcParameter(name = "message") final String message) {
+      mHandler.post(new Runnable() {
+      public void run() {
+        Toast.makeText(mService, "TM:" + message, Toast.LENGTH_SHORT).show();
+      }   
+    }); 
+  }
+
   private String getInputFromAlertDialog(final String title, final String message,
       final boolean password) {
     final FutureActivityTask<String> task = new FutureActivityTask<String>() {
