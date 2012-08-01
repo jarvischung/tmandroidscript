@@ -1,0 +1,97 @@
+# view AndroidManifest.xml #generated:33
+-keep class com.googlecode.android_scripting.Sl4aApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.googlecode.android_scripting.activity.ApiBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.googlecode.android_scripting.activity.ApiPrompt { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.googlecode.android_scripting.activity.BluetoothDeviceList { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.googlecode.android_scripting.activity.FutureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.googlecode.android_scripting.activity.InterpreterManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.googlecode.android_scripting.activity.InterpreterPicker { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.googlecode.android_scripting.activity.LogcatViewer { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.googlecode.android_scripting.activity.Preferences { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.googlecode.android_scripting.activity.ScriptEditor { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.googlecode.android_scripting.activity.ScriptManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.googlecode.android_scripting.activity.ScriptPicker { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.googlecode.android_scripting.activity.ScriptProcessMonitor { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.googlecode.android_scripting.activity.ScriptingLayerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.googlecode.android_scripting.activity.ScriptingLayerServiceLauncher { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.googlecode.android_scripting.activity.ScriptsLiveFolder { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.googlecode.android_scripting.activity.TriggerManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.googlecode.android_scripting.activity.TriggerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.googlecode.android_scripting.locale.LocaleReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.googlecode.android_scripting.provider.ApiProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.googlecode.android_scripting.provider.ScriptProvider { <init>(...); }
+
+# view res/layout/duration_picker.xml #generated:22
+# view res/layout/duration_picker.xml #generated:35
+# view res/layout/duration_picker.xml #generated:50
+# view res/layout/duration_picker.xml #generated:65
+-keep class com.googlecode.android_scripting.widget.NumberPicker { <init>(...); }
+
+# view res/layout/number_picker.xml #generated:21
+# view res/layout/number_picker.xml #generated:36
+-keep class com.googlecode.android_scripting.widget.NumberPickerButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class org.connectbot.ConsoleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class org.connectbot.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class org.connectbot.HelpTopicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class org.connectbot.util.ColorsActivity { <init>(...); }
+
+# view res/xml/preferences.xml #generated:47
+-keep class org.connectbot.util.EncodingPreference { <init>(...); }
+
+# view res/layout/act_help_topic.xml #generated:27
+-keep class org.connectbot.util.HelpTopicView { <init>(...); }
+
+# view res/xml/preferences.xml #generated:112
+-keep class org.connectbot.util.VolumePreference { <init>(...); }
+
+# onClick res/layout/trigger_manager.xml #generated:6
+-keepclassmembers class * { *** clickCancel(...); }
+
