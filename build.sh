@@ -41,3 +41,8 @@ pushd ScriptingLayerForAndroid
 ant release
 adb install -r ./bin/ScriptingLayerForAndroid-release.apk
 popd
+
+#Build PythonForAndroid (For Android project)
+pushd PythonForAndroid
+ant release
+popd
