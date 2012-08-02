@@ -39,3 +39,8 @@ popd
 pushd ScriptingLayerForAndroid
 ant clean
 popd
+
+#Build PythonForAndroid (For Android project)
+pushd PythonForAndroid
+ant clean
+popd
