@@ -1,2 +1,4 @@
 Modified by Jarvis Chung
 
+Please setup Android in your .profile.
+export ANDROID_SDK=<your android sdk path>
