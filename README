@@ -1,4 +1,16 @@
 Modified by Jarvis Chung
 
-Please setup Android in your .profile.
+Please setup Android SDK in your .profile.
 export ANDROID_SDK=<your android sdk path>
+
+Build Android-Script
+sh build.sh
+
+Clean Andorid-Script
+sh clean.sh
+
+Install ./InstallFolder/*.apk to device.
+sh install.sh
+
+Run python.
+sh run_python.sh

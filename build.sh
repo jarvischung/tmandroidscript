@@ -39,10 +39,12 @@ popd
 #Build ScriptingLayerForAndroid (For Android project)
 pushd ScriptingLayerForAndroid
 ant release
-adb install -r ./bin/ScriptingLayerForAndroid-release.apk
+#adb install -r ./bin/ScriptingLayerForAndroid-release.apk
+cp ./bin/ScriptingLayerForAndroid-release.apk ../InstallFolder/
 popd
 
 #Build PythonForAndroid (For Android project)
 pushd PythonForAndroid
 ant release
+cp ./bin/PythonForAndroid-release.apk ../InstallFolder/
 popd
